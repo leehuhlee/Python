@@ -11,10 +11,10 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Python Game") # Game Name
 
 # Load background image
-background = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_basic/background.png")
+background = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_funny_poop/background.png")
 
 # Load character(sprite)
-character = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_basic/character.png")
+character = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_funny_poop/character.png")
 character_size = character.get_rect().size # Get image size
 character_width = character_size[0] # character width size
 character_height = character_size[1] # character height size

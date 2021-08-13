@@ -10,7 +10,7 @@ screen_height = 640 # height size
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 # Screen title setting
-pygame.display.set_caption("Python Game") # Game Name
+pygame.display.set_caption("Python Funny Poop") # Game Name
 
 # FPS
 clock = pygame.time.Clock()
@@ -19,10 +19,10 @@ clock = pygame.time.Clock()
 # 1. Initial User Game(Background, Game Image, Position, Speed, Font, etc)
 
 # Load background image
-background = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_basic/river.png")
+background = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_funny_poop/river.png")
 
 # Load character(sprite)
-character = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_basic/rubber-duck.png")
+character = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_funny_poop/rubber-duck.png")
 character_size = character.get_rect().size # Get image size
 character_width = character_size[0] # character width size
 character_height = character_size[1] # character height size
@@ -37,7 +37,7 @@ character_speed = 0.6
 enemy_speed = 10
 
 # Enemy character
-enemy = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_basic/poop.png")
+enemy = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_funny_poop/poop.png")
 enemy_size = enemy.get_rect().size # Get image size
 enemy_width = enemy_size[0] # character width size
 enemy_height = enemy_size[1] # character height size

@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Python Game") # Game Name
 
 # Load background image
-background = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_basic/background.png")
+background = pygame.image.load("C:/Users/leehu/Desktop/Python/pygame_funny_poop/background.png")
 
 # Event loop
 running = True # Is the game running?
